@@ -1,0 +1,30 @@
+# Personal deploy token (tied to your PLN account) — never commit
+pln-app.config.json
+
+# Dependencies / build
+node_modules/
+coverage/
+
+# Deploy artifacts
+app.zip
+
+# Env & secrets
+.env
+.env.*
+local.env
+*.local
+
+# Local tooling state
+.claude/settings.local.json
+.pi-glla/
+.playwright-mcp/
+.vscode/
+.DS_Store
+npm-debug.log
+
+# Per-member profile store (runtime data)
+app/data/
+
+# Playwright e2e artifacts
+app/test-results/
+app/playwright-report/
